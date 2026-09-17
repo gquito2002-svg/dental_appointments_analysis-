@@ -1,5 +1,5 @@
 # dental_appointments_analysis-
-Cleaning and analyzing a synthetic dental dataset using Google Sheets and SQL 
+Cleaning and analyzing a synthetic dental dataset using Google Sheets and SQL. 
 
 
 Notice: This project uses a synthetic dataset for portfolio purposes only. The dataset contains no real patient information and health records.
@@ -15,10 +15,14 @@ The raw dataset contained missing values and inconsistent category names. I iden
 
 
 Step 2: Data Analysis
-I investigated cancellation rate for each appointment type, insurance type, and provider through SQL queries. I also calculate the no-show rate using the total amount of appointments. 
+I investigated cancellation rate for each appointment type, insurance type, and provider through SQL queries. I also calculated the no-show rate using the total amount of appointments. 
 
 Step 3: Key Findings
-The appointment type with the highest cancellations is cleanings. 
-Patients with PPO insurance have the highest amount of cancellations. 
-Provider C had the highest average wait times. 
-Provider B had the highest amount of cancellations. 
+![Dental Appointment Dashboard](visuals/dashboard.png)
+The appointment type with the highest number of cancellations was cleanings. 
+Patients with PPO insurance had the highest number of cancellations among insurance categories. 
+Provider C had the highest average patient wait time. 
+Provider B had the highest number of cancellations among providers. 
+![Number of Cancellations SQL Results](visuals/appointment_type_by_cancellations_SQL.png)
+![Number of Cancellations SQL Results](visuals/provider_cancellations_SQL.png)
+![Number of Cancellations SQL Results](visuals/average_wait_by_provider_SQL.png)
