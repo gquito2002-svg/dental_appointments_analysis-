@@ -18,11 +18,15 @@ Step 2: Data Analysis
 I investigated cancellation rate for each appointment type, insurance type, and provider through SQL queries. I also calculated the no-show rate using the total amount of appointments. 
 
 Step 3: Key Findings
-![Dental Appointment Dashboard](visuals/dashboard.png)
-The appointment type with the highest number of cancellations was cleanings. ![Number of Cancellations SQL Results](visuals/Appointment_type_by_cancellations_SQL.png)
-Patients with PPO insurance had the highest number of cancellations among insurance categories. 
-Provider C had the highest average patient wait time. ![Number of Cancellations NSQL Results](visuals/average_wait_by_provider_SQL.png)
-Provider B had the highest number of cancellations among providers. ![Number of Cancellations SQL Results](visuals/provider_cancellations_SQL.png)
+![Dental Appointment Dashboard](visuals/dashboard.png) <br />
+
+The appointment type with the highest number of cancellations was cleanings. ![Number of Cancellations SQL Results](visuals/Appointment_type_by_cancellations_SQL.png)  <br />
+
+Patients with PPO insurance had the highest number of cancellations among insurance categories. <br />
+
+Provider C had the highest average patient wait time. ![Number of Cancellations NSQL Results](visuals/average_wait_by_provider_SQL.png) <br />
+
+Provider B had the highest number of cancellations among providers. ![Number of Cancellations SQL Results](visuals/provider_cancellations_SQL.png)  <br />
 
 
 
