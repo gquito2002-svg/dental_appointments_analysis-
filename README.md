@@ -19,10 +19,10 @@ I investigated cancellation rate for each appointment type, insurance type, and 
 
 Step 3: Key Findings
 ![Dental Appointment Dashboard](visuals/dashboard.png)
-The appointment type with the highest number of cancellations was cleanings. 
+The appointment type with the highest number of cancellations was cleanings. ![Number of Cancellations SQL Results](visuals/Appointment_type_by_cancellations_SQL.png)
 Patients with PPO insurance had the highest number of cancellations among insurance categories. 
-Provider C had the highest average patient wait time. 
-Provider B had the highest number of cancellations among providers. 
-![Number of Cancellations SQL Results](visuals/appointment_type_by_cancellations_SQL.png)
-![Number of Cancellations SQL Results](visuals/provider_cancellations_SQL.png)
-![Number of Cancellations SQL Results](visuals/average_wait_by_provider_SQL.png)
+Provider C had the highest average patient wait time. ![Number of Cancellations NSQL Results](visuals/average_wait_by_provider_SQL.png)
+Provider B had the highest number of cancellations among providers. ![Number of Cancellations SQL Results](visuals/provider_cancellations_SQL.png)
+
+
+
